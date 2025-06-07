@@ -24,7 +24,9 @@ The application expects a CSV file with the following columns:
 
 ### 1. Clone the repository
 
-Clone the repository
+```
+git clone https://github.com/ValKirov/Valentin-Kirov-employees.git
+```
 
 ### 2. Install the project dependencies
 
@@ -40,6 +42,7 @@ npm run dev
 
 ## 🧩 Project Structure
 
+``` bash
 src/
 ├── components/
 │   └── ResultTable.tsx                         # Displays the top result
@@ -52,6 +55,7 @@ src/
 │   └── globals.ts                              # Shared type definitions
 ├── App.tsx
 └── main.tsx
+```
 
 
 ## 🛠 Technologies Used
